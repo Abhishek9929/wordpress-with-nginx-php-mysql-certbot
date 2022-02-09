@@ -1,0 +1,9 @@
+For certbot,
+1st need to install the certbot
+$ sudo apt install certbot
+
+2nd generate token
+$ certbot certonly --standalone -d myminio.com --staple-ocsp -m test@yourdomain.io --agree-tos
+
+Replace myminio.com with your domain name.
+
